@@ -15,7 +15,7 @@
 
 .menus{
     display: flex;
-    margin: ;
+    
 }
 .logo-img{
     width: 120px;
@@ -30,4 +30,44 @@
 }
 .item:hover{
     color: coral;
+}
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+   height: 100vh;
+   align-items: center;
+   background-image: url(/images/background.png),linear-gradient(45deg,rgb(8,8,8), black);
+}
+
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.banner-des{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: blue;
+    background-color: wheat;
+
 }
